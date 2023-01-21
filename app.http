@@ -7,6 +7,7 @@ GET http://localhost:3000/players/2/
 ###
 
 POST http://localhost:3000/players/
+Content-Type: application/json
 
 {
   "playerName": "Vishal",
@@ -16,6 +17,8 @@ POST http://localhost:3000/players/
 ###
 
 PUT http://localhost:3000/players/9
+Content-Type: application/json
+
 {
   "playerName": "Maneesh",
   "jerseyNumber": 54,
@@ -24,3 +27,4 @@ PUT http://localhost:3000/players/9
 ###
 
 DELETE http://localhost:3000/players/10
+###
